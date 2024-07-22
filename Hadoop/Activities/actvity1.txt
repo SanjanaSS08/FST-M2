@@ -14,5 +14,5 @@ hdfs dfs -put ./txtFile.txt /user/nagendra/textData
 hdfs dfs -put ./csvFile.csv /user/nagendra/textData
 
 # Use the stat command to get the file statistics
-hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/nagendra/textData/txtFile.txt
-hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/nagendra/textData/csvFile.csv
+hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/SanjanaSS/textData/txtFile.txt
+hdfs dfs -stat "type:%F permissions:%a %u:%g size:%b name:%n" /user/SanjanaSS/textData/csvFile.csv
